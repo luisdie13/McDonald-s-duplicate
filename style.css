@@ -12,6 +12,9 @@ a {
 
 header {
     width: 100%;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    background-color: white;
+    position: fixed;
 }
 
 header nav {
@@ -19,12 +22,19 @@ header nav {
     justify-content: start;
 }
 
+.mIconHome {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 25px;
+    margin-left: 150px;
+}
+
 header nav .mainSection {
     display: flex;
     justify-content: flex-start;
     align-items: start;
     list-style: none;
-    margin-top: -25px;
+    margin-top: -40px;
     margin-left: 200px;
 }
 
@@ -38,7 +48,7 @@ header nav .secondSection {
     justify-content: flex-start;
     align-items: start;
     list-style: none;
-    margin-top: 7px;
+    margin-top: -5px;
     margin-left: 200px;
 }
 
@@ -53,4 +63,23 @@ nav .secondSection a {
 
 .twoli-align-right {
     margin-left: 50px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.firstimage {
+    margin-top: 120px;
+    width: 1210px;
+    height: 430px;
+}
+
+.secondimage {
+    margin-top: 50px;
+    width: 1210px;
+    height: 430px;
 }
