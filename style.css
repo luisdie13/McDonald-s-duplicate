@@ -65,7 +65,7 @@ nav .secondSection a {
     margin-left: 50px;
 }
 
-section {
+.image-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,4 +82,30 @@ section {
     margin-top: 50px;
     width: 1210px;
     height: 430px;
+}
+
+.twoOptionsToOrder {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.firstChat {
+    background-color: rgb(243 244 246);
+    width: 590px;
+    height: 680px;
+    margin-left: -90px;
+    margin-right: 25px;
+    display: list-item;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondProgramar {
+    background-color: rgb(243 244 246);
+    width: 590px;
+    height: 680px;
+    margin-right: -90px;
 }
