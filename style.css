@@ -179,3 +179,40 @@ section .cajitaFeliz {
     height: 430px;
     margin-left: 155px;
 }
+
+.contactsection {
+    background-color: rgb(220 38 38);
+    margin-top: 50px;
+    width: 1210px;
+    height: 350px;
+    margin-left: 153px;
+}
+
+.classfortext {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 700px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+    color: aliceblue;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 200px;
+    margin-top: 70px;
+    margin-bottom: -200px;
+}
+
+.icon-right {
+    margin-right: 150px;
+    margin-bottom: -200px;
+    color: white;
+}
+
+.mcIconDos {
+    margin-top: -120px;
+    width: 25%;
+    height: 25%;
+}
