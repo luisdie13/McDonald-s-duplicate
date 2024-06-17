@@ -193,8 +193,10 @@ section .cajitaFeliz {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-right: 700px;
     margin-left: 150px;
-    margin-bottom: 100px;
+    margin-bottom: 130px;
     color: aliceblue;
+    padding-top: 30px;
+    font-weight: bolder;
 }
 
 .icons-container {
@@ -211,8 +213,13 @@ section .cajitaFeliz {
     color: white;
 }
 
+.App {
+    margin-top: -16px;
+}
+
 .mcIconDos {
-    margin-top: -120px;
+    margin-top: -180px;
     width: 25%;
     height: 25%;
+    margin-left: 110px;
 }
