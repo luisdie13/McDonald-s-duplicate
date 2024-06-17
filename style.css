@@ -183,6 +183,7 @@ section .cajitaFeliz {
 .contactsection {
     background-color: rgb(220 38 38);
     margin-top: 50px;
+    margin-bottom: 50px;
     width: 1210px;
     height: 350px;
     margin-left: 153px;
@@ -222,4 +223,42 @@ section .cajitaFeliz {
     width: 25%;
     height: 25%;
     margin-left: 110px;
+}
+
+.footer-container {
+    border-top: solid 1px rgb(220, 220, 220);
+    width: 78%;
+    margin-left: 160px;
+}
+
+.imagemesoamericaicon {
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.parrafomesoamerica {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    list-style: none;
+    margin-top: -40px;
+    margin-left: 70px;
+    color: #000000;
+}
+
+.footer-leftDos {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    list-style: none;
+    margin-top: 50px;
+    margin-left: -25px;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    list-style: none;
+    flex-direction: row;
 }
