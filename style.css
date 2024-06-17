@@ -1,13 +1,41 @@
 body {
     margin: 0;
     padding: 0;
-    font-size: 13px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 a {
     text-decoration: none;
     cursor: pointer;
+}
+
+a:hover {
+    animation: cheese-melt 1s ease-in-out;
+    text-shadow: 2px 2px 2px #fdbb1f;
+}
+
+@keyframes cheese-melt {
+    0% {
+        transform: none;
+      filter: blur(0px) drop-shadow(0px 0px 0px rgba(255,255,0,0)); /* No blur, no shadow */
+    }
+    25% {
+      transform: skewX(-5deg) translateY(2px);  /* Skew left, move down */
+      filter: blur(1px) drop-shadow(2px 2px 1px rgba(255,255,0,0.5)); /* Slight blur, yellow shadow */
+    }
+    50% {
+      transform: skewX(7deg) translateY(5px);  /* Skew right, move down more */
+      filter: blur(2px) drop-shadow(4px 4px 2px #fdbb1f); /* More blur, stronger yellow shadow */
+    }
+    75% {
+        transform: skewX(-3deg) translateY(7px); /* Slight skew left, move down further*/
+      filter: blur(1px) drop-shadow(2px 2px 1px rgba(255,255,0,0.5)); /* Reduce blur, weaker shadow */
+    }
+    100% {
+      transform: skewX(0deg) translateY(10px); /* Reset skew, move down completely */
+      filter: blur(0px) drop-shadow(0px 0px 0px rgba(255,255,0,0)); /* No blur, no shadow */
+    }
 }
 
 header {
@@ -95,17 +123,59 @@ nav .secondSection a {
 .firstChat {
     background-color: rgb(243 244 246);
     width: 590px;
-    height: 680px;
+    height: 750px;
     margin-left: -90px;
     margin-right: 25px;
     display: list-item;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    list-style: none;
 }
 
 .secondProgramar {
     background-color: rgb(243 244 246);
     width: 590px;
-    height: 680px;
+    height: 750px;
     margin-right: -90px;
+    display: list-item;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+}
+
+.titulos {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.parrafos {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 15px;
+    font-weight: -100%;
+}
+
+.button {
+    background-color: #fdbb1f;
+    border: none;
+    border-radius: 20px;
+    color: black;
+    padding: 12px 40px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+section .cajitaFeliz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 1210px;
+    height: 430px;
+    margin-left: 155px;
 }
