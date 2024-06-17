@@ -8,6 +8,7 @@ body {
 a {
     text-decoration: none;
     cursor: pointer;
+    color: #000000;
 }
 
 a:hover {
@@ -43,6 +44,7 @@ header {
     border-bottom: 1px solid rgb(220, 220, 220);
     background-color: white;
     position: fixed;
+    height: 15%;
 }
 
 header nav {
@@ -66,6 +68,11 @@ header nav .mainSection {
     margin-left: 200px;
 }
 
+.fiftyyears {
+    width: 4%;
+    height: 4%;
+}
+
 nav .mainSection a {
     margin-right: 20px;
     color: #000000;
@@ -81,12 +88,36 @@ header nav .secondSection {
 }
 
 nav .secondSection a {
-    margin-right: 20px;
+    margin-right: 50px;
     color: #000000;
 }
 
+nav .thirdSection {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-decoration: none;
+    list-style: none;
+}
+
+.buttonDos {
+    background-color: #fdbb1f;
+    border: none;
+    border-radius: 20px;
+    color: black;
+    padding: 7px 40px;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+
 .li-align-right {
-    margin-left: 600px;
+    margin-bottom: 100px;
+    margin-left: -190px;
+}
+
+.papas {
+    margin-right: 10px;
+    margin-bottom: -9px;
 }
 
 .twoli-align-right {
@@ -101,7 +132,7 @@ nav .secondSection a {
 }
 
 .firstimage {
-    margin-top: 120px;
+    margin-top: 170px;
     width: 1210px;
     height: 430px;
 }
@@ -253,6 +284,8 @@ section .cajitaFeliz {
     list-style: none;
     margin-top: 50px;
     margin-left: -25px;
+    color: #000000;
+    font-weight: bolder;
 }
 
 .footer-right {
@@ -260,5 +293,20 @@ section .cajitaFeliz {
     justify-content: flex-end;
     align-items: flex-end;
     list-style: none;
-    flex-direction: row;
+    margin-top: -60px;
+}
+
+.list {
+    margin-right: 30px;
+    border-right: solid black;
+    padding-right: 10px;
+}
+
+.lista {
+    margin-right: 10px;
+}
+
+.lastpart {
+    margin-top: 50px;
+    margin-left: 175px;
 }
