@@ -201,6 +201,34 @@ nav .thirdSection {
     margin-top: 20px;
 }
 
+button:hover {
+    animation: cheese-melt 1s ease-in-out;
+    text-shadow: 2px 2px 2px #fdbb1f;
+}
+
+@keyframes cheese-melt {
+    0% {
+        transform: none;
+      filter: blur(0px) drop-shadow(0px 0px 0px rgba(255,255,0,0)); /* No blur, no shadow */
+    }
+    25% {
+      transform: skewX(-5deg) translateY(2px);  /* Skew left, move down */
+      filter: blur(1px) drop-shadow(2px 2px 1px rgba(255,255,0,0.5)); /* Slight blur, yellow shadow */
+    }
+    50% {
+      transform: skewX(7deg) translateY(5px);  /* Skew right, move down more */
+      filter: blur(2px) drop-shadow(4px 4px 2px #fdbb1f); /* More blur, stronger yellow shadow */
+    }
+    75% {
+        transform: skewX(-3deg) translateY(7px); /* Slight skew left, move down further*/
+      filter: blur(1px) drop-shadow(2px 2px 1px rgba(255,255,0,0.5)); /* Reduce blur, weaker shadow */
+    }
+    100% {
+      transform: skewX(0deg) translateY(10px); /* Reset skew, move down completely */
+      filter: blur(0px) drop-shadow(0px 0px 0px rgba(255,255,0,0)); /* No blur, no shadow */
+    }
+}
+
 section .cajitaFeliz {
     display: flex;
     justify-content: center;
